@@ -1,92 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tourney|Oswald|Roboto+Condensed|Teko"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./style/style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tourney|Oswald|Roboto+Condensed|Teko">
-</head>
+  <body class="background">
+    <div class="bg-blue-50 mx-10 my-10 shadow-lg rounded-xl ring-1">
+      <div
+        class="
+          bg-gray-200
+          border-b-2
+          py-4
+          mb-4
+          flex
+          space-x-5
+          p-5
+          justify-between
+        "
+      >
+        <p class="head">Contact</p>
+        <div class="flex space-x-5 p-5 justify-between">
+          <a href="index.html"
+            ><img
+              width="50"
+              height="50"
+              src="https://image.flaticon.com/icons/png/512/561/561141.png"
+              alt="House free icon"
+              title="House free icon"
+              class="loaded contact"
+          /></a>
 
-<body class="background">
+          <a href="experience.html"
+            ><img
+              width="50"
+              height="50"
+              src="https://image.flaticon.com/icons/png/512/3056/3056378.png"
+              alt="Certification free icon"
+              title="Certification free icon"
+              class="loaded contact"
+          /></a>
 
-  <div class="bg-white max-w-screen-md mx-auto my-10 shadow-lg rounded-xl ring-1 ">
-
-    <div class="flex space-x-5  p-5 justify-between">
-      <p class="head">Contact</p>
-      <div class="contact">
-        <div class="flex space-x-5  p-5 justify-between ">
-          <a href="index.html"><img width="50" height="50" src="https://image.flaticon.com/icons/png/512/561/561141.png" alt="House free icon" title="House free icon" class="loaded"></a>
-
-          <a href="experiance.html"><img width="50" height="50"
-              src="https://image.flaticon.com/icons/png/512/3056/3056378.png" alt="Certification free icon"
-              title="Certification free icon" class="loaded"></a>
-
-          <a flex p-5 href="contact.html"><img width="50" height="50" src="https://image.flaticon.com/icons/png/512/263/263164.png" alt="Information free icon" title="Information free icon" class="loaded"></a>
+          <a flex p-5 href="contact.html"
+            ><img
+              width="50"
+              height="50"
+              src="https://image.flaticon.com/icons/png/512/263/263164.png"
+              alt="Information free icon"
+              title="Information free icon"
+              class="loaded contact"
+          /></a>
         </div>
       </div>
+
+      <div class="head_info flex p-10 mx-5">
+        <img class="w-60 h-60 rounded-full" src="./Imges/my picture.jpg" />
+        <!-- discript-->
+
+        <table width="55%" align="center">
+          <tr>
+            <td class="text_info">Name</td>
+            <td>Ronnagon Phukahuta</td>
+          </tr>
+          <tr>
+            <td class="text_info">Nickname</td>
+            <td>Kaothom</td>
+          </tr>
+          <tr>
+            <td class="text_info">Address</td>
+            <td>384/53, Sansainoi Sub-district,</td>
+          </tr>
+          <tr>
+            <td class="text_info"></td>
+            <td>Sansai District, ChiangMai 50210,</td>
+          </tr>
+          <tr>
+            <td class="text_info">Facebook</td>
+            <td style="color: rgb(49, 226, 64)">
+              <a href="https://www.facebook.com/Kao.Kaothom/" target="_blank"
+                >Kao Ronnagon</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="text_info">Instagram</td>
+            <td style="color: rgb(49, 226, 64)">
+              <a href="https://www.instagram.com/kaoo_thomm/" target="_blank"
+                >kaoo_thomm</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="text_info">Email</td>
+            <td style="color: rgb(17, 10, 224)">
+              <a href="mailto: ronnagon_phu@cmu.ac.th"
+                >ronnagon_phu@cmu.ac.th</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="text_info">Line</td>
+            <td>kaothom2012</td>
+          </tr>
+          <tr>
+            <td class="text_info">Phone</td>
+            <td>095-414-5964</td>
+          </tr>
+        </table>
+      </div>
+      <br /><br /><br /><br /><br />
+      <p class="text-center text-gray-600 mt-5">
+        © 2021 Resume by Ronnagon Phukahuta
+      </p>
+      <br />
     </div>
-
-    <div class="head_info flex p-10 mx-5 ">
-      <img class="w-60 h-60 rounded-full" src="./Imges/my picture.jpg">
-      <!-- discript-->
-
-      <table width=55% align="center">
-        <tr>
-          <td class="text_info">Name</td>
-          <td>Ronnagon Phukahuta</td>
-        </tr>
-        <tr>
-          <td class="text_info">Nickname</td>
-          <td>Kaothom</td>
-        </tr>
-        <tr>
-          <td class="text_info">Address</td>
-          <td>384/53, Sansainoi,</td>
-        </tr>
-        <tr>
-          <td class="text_info"></td>
-          <td> Sansai, ChiangMai 50210,</td>
-        </tr>
-        <tr>
-          <td class="text_info">Facebook</td>
-          <td style="color:rgb(49, 226, 64);"><a href="https://www.facebook.com/Kao.Kaothom/" target="_blank">Kao
-              Ronnagon</a></td>
-        </tr>
-        <tr>
-          <td class="text_info">Instagram</td>
-          <td style="color: rgb(49, 226, 64);"><a href="https://www.instagram.com/kaoo_thomm/"
-              target="_blank">kaoo_thomm</a></td>
-        </tr>
-        <tr>
-          <td class="text_info">Email</td>
-          <td style="color: rgb(17, 10, 224);"><a href="mailto: kaothom@gmail.com">Kaothom@gmail.com</a></td>
-        </tr>
-        <tr>
-          <td class="text_info">Line</td>
-          <td>kaothom2012</td>
-        </tr>
-        <tr>
-          <td class="text_info">Phone</td>
-          <td>095-414-5964</td>
-        </tr>
-
-      </table>
-
-
-
-    </div>
-    <br><br><br><br><br>
-    <p class="text-center text-gray-600 mt-5"> © 2021 Resume by Ronnagon Phukahuta </p><br>
-
-
-  </div>
-
-
-
-</body>
-
+  </body>
 </html>
